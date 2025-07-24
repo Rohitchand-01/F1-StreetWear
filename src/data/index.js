@@ -1,0 +1,97 @@
+export const categories = [
+  {
+    id: 1,
+    name: "Racing Tees",
+    imageUrl: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+    slug: "racing-tees",
+  },
+  {
+    id: 2,
+    name: "F1 Hoodies",
+    imageUrl: "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=800&q=80",
+    slug: "f1-hoodies",
+  },
+  {
+    id: 3,
+    name: "Vintage F1",
+    imageUrl: "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=800&q=80",
+    slug: "vintage-f1",
+  },
+  {
+    id: 4,
+    name: "Caps",
+    imageUrl: "https://images.unsplash.com/photo-1562158070-48e8f89a0f97?auto=format&fit=crop&w=800&q=80",
+    slug: "caps",
+  },
+  {
+    id: 5,
+    name: "Accessories",
+    imageUrl: "https://images.unsplash.com/photo-1581349483262-bb586c9f5124?auto=format&fit=crop&w=800&q=80",
+    slug: "accessories",
+  },
+  {
+    id: 6,
+    name: "Limited Edition",
+    imageUrl: "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80",
+    slug: "limited-edition",
+  },
+];
+
+export const products = [
+  {
+    id: 1,
+    name: "Red Bull Racing Tee",
+    description: "Official Red Bull Racing shirt",
+    price: 2499,
+    imageUrl: "https://images.unsplash.com/photo-1556905055-8f358a7a47b4?auto=format&fit=crop&w=600&q=80",
+    category: "racing-tees",
+  },
+  {
+    id: 2,
+    name: "Ferrari Racing Tee",
+    description: "Scuderia Ferrari style",
+    price: 2299,
+    imageUrl: "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+    category: "racing-tees",
+  },
+  {
+    id: 3,
+    name: "Mercedes Hoodie",
+    description: "AMG Petronas Teamwear",
+    price: 3499,
+    imageUrl: "https://images.unsplash.com/photo-1520975691851-3b4a45b3e199?auto=format&fit=crop&w=600&q=80",
+    category: "f1-hoodies",
+  },
+  {
+    id: 4,
+    name: "Vintage McLaren Tee",
+    description: "Retro McLaren shirt",
+    price: 1999,
+    imageUrl: "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=600&q=80",
+    category: "vintage-f1",
+  },
+  {
+    id: 5,
+    name: "Red Bull Cap",
+    description: "Official Red Bull Racing Cap",
+    price: 999,
+    imageUrl: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80",
+    category: "caps",
+  },
+  {
+    id: 6,
+    name: "F1 Keychain",
+    description: "F1-themed metal keychain",
+    price: 499,
+    imageUrl: "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=600&q=80",
+    category: "accessories",
+  },
+  {
+    id: 7,
+    name: "Limited Edition Helmet Replica",
+    description: "Collectible F1 helmet model",
+    price: 5499,
+    imageUrl: "https://images.unsplash.com/photo-1508898578281-774ac4893a11?auto=format&fit=crop&w=600&q=80",
+    category: "limited-edition",
+  },
+];
