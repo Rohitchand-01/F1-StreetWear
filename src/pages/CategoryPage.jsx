@@ -2,7 +2,7 @@ import React from 'react';
 import { useAppContext } from '../context/AppContext';
 import ProductCard from '../components/ProductCard';
 import { Link } from 'react-router-dom';
-import { products } from "../data";
+import { products ,  } from "../data";
 
 
 const CategoryPage = () => {

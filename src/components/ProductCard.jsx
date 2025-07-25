@@ -14,7 +14,7 @@ const ProductCard = ({ product, onAddToCart }) => {
       <Link to={`/product/${product.id}`}>
         <div className="relative overflow-hidden">
           <img 
-            src={product.image} 
+            src={product.imageUrl}
             alt={product.name}
             className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
           />
